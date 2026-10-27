@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* NAVBAR */
+header{
+    background-color: #012611;
+    color: #DDF291;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+nav ul li {
+    margin-left: 20px;
+}
+    nav ul li a {
+    color: #DDF291;
+    text-decoration: none;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.intro {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+.Destino {
+    width: 300px;
+    text-align: center;
+}
+
+.Destino img {
+    width: 100%;
+    height: 300px;
+    object-fit: center;
+    border-radius: 8px;
+}
+
+.Destino h3 {
+    margin-top: 1px;
+    color:#012611   
+}
+
+footer {
+    background-color:#012611;
+    color:#DDF291;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
